@@ -6,7 +6,7 @@ import { map, share } from 'rxjs/operators';
 @Component({
   selector: 'app-cw-navbar',
   templateUrl: './cw-navbar.component.html',
-  styleUrls: ['./cw-navbar.component.css']
+  styleUrls: ['./cw-navbar.component.sass']
 })
 export class CwNavbarComponent {
 
