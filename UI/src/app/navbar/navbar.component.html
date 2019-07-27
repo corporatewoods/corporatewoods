@@ -13,7 +13,12 @@
             Google Search
         </a>
     </span>
-    <span>
+    <span [title]="isAdministrator ? 'Administrator' : 'User'">
         Welcome, {{ user.preferredName }}
+    </span>
+    <span *ngIf="isAdministrator">
+        <a href="https://www.google.com/maps">
+            Administer
+        </a>
     </span>
 </mat-toolbar>

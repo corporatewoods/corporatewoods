@@ -12,9 +12,13 @@ export class NavbarComponent implements OnInit {
   constructor(private userService: UserService) { }
   applicationTitle = "CTL Capacity";
   user: User;
+  isAdministrator: boolean;
 
   ngOnInit() {
     this.getUser();
+    if (this.user != null){
+      this.isAdministrator = this.checkIfAdministrator(this.user);
+    }
   }
 
   getUser() {
@@ -24,8 +28,17 @@ export class NavbarComponent implements OnInit {
       .subscribe((data: User) => this.user = {
         id: data['id'],
         legalName: data['legalName'],
-        preferredName: data['preferredName']
+        preferredName: data['preferredName'],
+        roles: data['roles'],
       });
+  }
+
+  checkIfAdministrator(user:User): boolean {
+    if (user.roles.includes('Administrator'))
+    {
+      return true;
+    } 
+    return false;
   }
 
 }
