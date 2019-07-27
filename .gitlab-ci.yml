@@ -3,7 +3,7 @@ pages:
   before_script:
     - pwd
   script:
-    - cd angular-website
+    - cd UI
     - npm --version
     - date
     - yarn install
@@ -24,7 +24,7 @@ pages:
 test:mypages:
   image: trion/ng-cli-karma
   script:
-    - cd angular-website
+    - cd UI
     - pwd 
     - ls -a
     - npm install

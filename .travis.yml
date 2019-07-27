@@ -18,12 +18,12 @@ cache:
 
 install:
   - ls
-  - cd angular-website
+  - cd UI
   - npm install
 
 script:
   - ls 
   - pwd
-  - cd angular-website
+  - cd UI
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run e2e -- --protractor-config=e2e/protractor-ci.conf.js
