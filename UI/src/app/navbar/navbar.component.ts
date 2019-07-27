@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../user.service';
+import { User } from '../user';
 
 @Component({
   selector: 'app-navbar',
@@ -7,10 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService: UserService) { }
   applicationTitle = "CTL Capacity";
+  user: User;
 
   ngOnInit() {
+    this.getUser();
+  }
+
+  getUser() {
+    this
+      .userService
+      .getAUser()
+      .subscribe((data: User) => this.user = {
+        id: data['id'],
+        legalName: data['legalName'],
+        preferredName: data['preferredName']
+      });
   }
 
 }
