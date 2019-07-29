@@ -2,7 +2,6 @@
     <span>
         {{ applicationTitle }}
     </span>
-    <span class="example-fill-remaining-space"></span>
     <span>
         <a href="https://www.nasa.gov">
             National Aeronautics and Space Administration
@@ -13,6 +12,7 @@
             Google Search
         </a>
     </span>
+    <span class="example-fill-remaining-space"></span>
     <span [title]="isAdministrator ? 'Administrator' : 'User'">
         Welcome, {{ user.preferredName }}
     </span>
