@@ -135,4 +135,36 @@ Merge made by the 'recursive' strategy.
  UI/src/app/navbar/navbar.component.spec.ts | 4 ++++
  2 files changed, 10 insertions(+), 2 deletions(-)
 PS C:\Users\u1291341\Documents\src\personal\corporatewoods>
+PS C:\Users\u1291341\Documents\src\personal\corporatewoods> git push origin master
+To https://github.com/corporatewoods/corporatewoods.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/corporatewoods/corporatewoods.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Everything up-to-date
+PS C:\Users\u1291341\Documents\src\personal\corporatewoods> git pull https://github.com/corporatewoods/corporatewoods.git master
+From https://github.com/corporatewoods/corporatewoods
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+PS C:\Users\u1291341\Documents\src\personal\corporatewoods> git push origin master
+Enumerating objects: 34, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 6.02 KiB | 2.01 MiB/s, done.
+Total 20 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), completed with 7 local objects.
+To https://github.com/corporatewoods/corporatewoods.git
+   cbaf547..dc97a04  master -> master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.78 KiB | 1.89 MiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0)
+To https://gitlab.com/corporatewoods/corporatewoods.gitlab.io.git
+   31ec78f..dc97a04  master -> master
+PS C:\Users\u1291341\Documents\src\personal\corporatewoods>
 ```
