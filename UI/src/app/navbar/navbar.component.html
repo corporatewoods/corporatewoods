@@ -13,7 +13,7 @@
         </a>
     </span>
     <span class="example-fill-remaining-space"></span>
-    <span [title]="isAdministrator ? 'Administrator' : 'User'">
+    <span *ngIf="user" [title]="isAdministrator ? 'Administrator' : 'User'">
         Welcome, {{ user.preferredName }}
     </span>
     <span *ngIf="isAdministrator">
