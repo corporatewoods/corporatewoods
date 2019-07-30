@@ -16,9 +16,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
     this.getUser();
-    if (this.user != null){
-      this.isAdministrator = this.checkIfAdministrator(this.user);
-    }
+    this.isAdministrator = this.checkIfAdministrator(this.user);
   }
 
   getUser() {
@@ -29,16 +27,21 @@ export class NavbarComponent implements OnInit {
         id: data['id'],
         legalName: data['legalName'],
         preferredName: data['preferredName'],
-        roles: data['roles'],
+        roles: data['roles']
       });
   }
 
-  checkIfAdministrator(user:User): boolean {
-    if (user.roles.includes('Administrator'))
-    {
+  checkIfAdministrator(user: User): boolean {
+    if (user != null && user.roles.includes('Administrator')) {
+      console.log("yes, you are an administrator!");
       return true;
-    } 
+    } else {
+      if (user != null) {
+        console.log("welcome, user!");
+        return false;
+      }
+    }
+    console.log("who are you?");
     return false;
   }
-
 }
