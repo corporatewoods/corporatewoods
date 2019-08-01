@@ -4,7 +4,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { IssuesTableComponent } from './issues-table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { HttpClientModule } from '@angular/common/http'; 
-
+import {MatSortModule} from '@angular/material/sort';
 describe('IssuesTableComponent', () => {
   let component: IssuesTableComponent;
   let fixture: ComponentFixture<IssuesTableComponent>;
@@ -15,6 +15,7 @@ describe('IssuesTableComponent', () => {
         MatProgressSpinnerModule,
         MatTableModule,
         MatPaginatorModule,
+        MatSortModule,
         HttpClientModule,
       ],
       declarations: [ IssuesTableComponent ]
