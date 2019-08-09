@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { FormsModule } from '@angular/forms';
 import { BookTableComponent } from './book-table.component';
 import { FilterPipe } from '../filter.pipe';
 
@@ -11,7 +11,11 @@ describe('BookTableComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         BookTableComponent,
-        FilterPipe]
+        FilterPipe
+      ],
+      imports: [
+        FormsModule,
+      ]
     })
       .compileComponents();
   }));
