@@ -19,7 +19,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let book of books | filter: searchText " >
+        <tr *ngFor="let book of books | filter: { title: searchText, author: searchText}: false " >
             <td>
                 <span>
                     {{ book.id }}
