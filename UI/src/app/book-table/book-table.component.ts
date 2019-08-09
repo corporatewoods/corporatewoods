@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterContentChecked } from '@angular/core';
+import { Component, OnInit, AfterContentChecked, Input } from '@angular/core';
 import { DatePipe } from "@angular/common";
 @Component({
   selector: 'app-book-table',
@@ -7,7 +7,7 @@ import { DatePipe } from "@angular/common";
 })
 export class BookTableComponent implements OnInit, AfterContentChecked {
   books: Book[];
-  searchText: string = "homer";
+  @Input() searchText: string;
 
   constructor() { }
 
