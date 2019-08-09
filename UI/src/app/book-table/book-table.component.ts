@@ -7,7 +7,7 @@ import { DatePipe } from "@angular/common";
 })
 export class BookTableComponent implements OnInit, AfterContentChecked {
   books: Book[];
-  searchText: string = "great";
+  searchText: string = "homer";
 
   constructor() { }
 
