@@ -17,7 +17,8 @@ export class BookTableComponent implements OnInit, AfterContentChecked {
       new Book(1, "Moby Dick", "Herman Melville"),
       new Book(2, "Anna Karenina", "Leo Tolstoy"),
       new Book(3, "Illiad", "Homer"),
-      new Book(4, "The Adventures of Sherlock Holmes", "Sir Arthur Conan Doyle")
+      new Book(4, "The Adventures of Sherlock Holmes", "Sir Arthur Conan Doyle"),
+      new Book(4, "Homer: A Very Short Introduction (Very Short Introductions)", "Barbara Graziosi")
     ];
   }
 

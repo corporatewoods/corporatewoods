@@ -1,3 +1,4 @@
+<input placeholder="SearchString" [(ngModel)]="searchText" />
 <table>
     <thead>
         <tr>
@@ -19,7 +20,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let book of books | filter: { title: searchText, author: searchText}: false " >
+        <tr *ngFor="let book of books | filter: { title: searchText, author: searchText}: true " >
             <td>
                 <span>
                     {{ book.id }}
