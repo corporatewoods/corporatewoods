@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BookTableComponent } from './book-table.component';
+import { FilterPipe } from '../filter.pipe';
 
 describe('BookTableComponent', () => {
   let component: BookTableComponent;
@@ -8,9 +9,11 @@ describe('BookTableComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BookTableComponent ]
+      declarations: [
+        BookTableComponent,
+        FilterPipe]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
