@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BookTableComponent } from './book-table/book-table.component';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BookTableComponent
+    BookTableComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterContentChecked } from '@angular/core';
-
+import { DatePipe } from "@angular/common";
 @Component({
   selector: 'app-book-table',
   templateUrl: './book-table.component.html',
@@ -7,13 +7,18 @@ import { Component, OnInit, AfterContentChecked } from '@angular/core';
 })
 export class BookTableComponent implements OnInit, AfterContentChecked {
   books: Book[];
+  searchText: string = "great";
 
   constructor() { }
 
   ngOnInit() {
-    this.books.push(new Book(0, "Great Expectations", "Charles Dickens"));
-    this.books.push(new Book(1, "Moby Dick", "Herman Melville"));
-    this.books.push(new Book(2, "Anna Karenina", "Leo Tolstoy"));
+    this.books = [
+      new Book(0, "Great Expectations", "Charles Dickens"),
+      new Book(1, "Moby Dick", "Herman Melville"),
+      new Book(2, "Anna Karenina", "Leo Tolstoy"),
+      new Book(3, "Illiad", "Homer"),
+      new Book(4, "The Adventures of Sherlock Holmes", "Sir Arthur Conan Doyle")
+    ];
   }
 
   ngAfterContentChecked() {

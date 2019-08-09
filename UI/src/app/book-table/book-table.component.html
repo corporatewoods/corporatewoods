@@ -19,7 +19,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let book of books">
+        <tr *ngFor="let book of books | filter: searchText " >
             <td>
                 <span>
                     {{ book.id }}
