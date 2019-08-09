@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "title": "Great Expectations",
+        "author": "Charles Dickens"
+    },
+    {
+        "id": 1,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "id": 2, 
+        "title": "Moby Dick",
+        "author": "Herman Melville"
+    }
+]
