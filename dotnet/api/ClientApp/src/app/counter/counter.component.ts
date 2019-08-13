@@ -10,4 +10,10 @@ export class CounterComponent {
   public incrementCounter() {
     this.currentCount++;
   }
+
+  public decrementCounter() {
+    if (this.currentCount > 0) {
+      this.currentCount--;
+    }
+  }
 }

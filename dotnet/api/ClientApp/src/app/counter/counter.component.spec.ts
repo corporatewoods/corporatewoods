@@ -8,9 +8,9 @@ describe('CounterComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CounterComponent ]
+      declarations: [CounterComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
@@ -28,9 +28,34 @@ describe('CounterComponent', () => {
     const countElement = fixture.nativeElement.querySelector('strong');
     expect(countElement.textContent).toEqual('0');
 
-    const incrementButton = fixture.nativeElement.querySelector('button');
+    const incrementButton = fixture.nativeElement.querySelector('#incrementButton');
     incrementButton.click();
     fixture.detectChanges();
     expect(countElement.textContent).toEqual('1');
+  }));
+
+  it('should start with count 0, and not decrement when clicked', async(() => {
+    const countElement = fixture.nativeElement.querySelector('strong');
+    expect(countElement.textContent).toEqual('0');
+
+    const decrementButton = fixture.nativeElement.querySelector('#decrementButton');
+    decrementButton.click();
+    fixture.detectChanges();
+    expect(countElement.textContent).toEqual('0');
+  }));
+
+  it('should start with count 0, increment to 1 when clicked, and decrement to zero when clicked', async(() => {
+    const countElement = fixture.nativeElement.querySelector('strong');
+    expect(countElement.textContent).toEqual('0');
+
+    const incrementButton = fixture.nativeElement.querySelector('#incrementButton');
+    incrementButton.click();
+    fixture.detectChanges();
+    expect(countElement.textContent).toEqual('1');
+
+    const decrementButton = fixture.nativeElement.querySelector('#decrementButton');
+    decrementButton.click();
+    fixture.detectChanges();
+    expect(countElement.textContent).toEqual('0');
   }));
 });
