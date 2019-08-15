@@ -293,3 +293,165 @@ The thread 11020 has exited with code 0 (0x0).
 The thread 14372 has exited with code 0 (0x0).
 The thread 2940 has exited with code 0 (0x0).
 The thread 14540 has exited with code 0 (0x0).
+The thread 14788 has exited with code 0 (0x0).
+The thread 6192 has exited with code 0 (0x0).
+The thread 11232 has exited with code 0 (0x0).
+The thread 6732 has exited with code 0 (0x0).
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1013.6099ms 304
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1013.6099ms 304
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 35.0852ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 35.0852ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1048.3617ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1057.8115ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1048.3617ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1057.8115ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1064.5627ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1064.5627ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1159.0965ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1159.0965ms 200 application/json; charset=UTF-8
+The thread 2768 has exited with code 0 (0x0).
+The thread 372 has exited with code 0 (0x0).
+The thread 13904 has exited with code 0 (0x0).
+The thread 12252 has exited with code 0 (0x0).
+The thread 11164 has exited with code 0 (0x0).
+The thread 6744 has exited with code 0 (0x0).
+The thread 11000 has exited with code 0 (0x0).
+The thread 10716 has exited with code 0 (0x0).
+The thread 10252 has exited with code 0 (0x0).
+The thread 13132 has exited with code 0 (0x0).
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/
+The thread 11220 has exited with code 0 (0x0).
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1015.0247ms 200 text/html; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1015.0247ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 142999.0207ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 142999.0207ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/vendor.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/vendor.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/runtime.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/main.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/runtime.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/main.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 553.0951ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 553.0951ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 175.5477ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 175.5477ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1038.4234ms 200 text/css; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1038.4234ms 200 text/css; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1057.7975ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1057.7975ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1089.6059ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1089.6059ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 23.2966ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 23.2966ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1165.1268ms 200 application/javascript; charset=UTF-8
+      Request finished in 1165.1268ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 23.2317ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 23.2317ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 125.0509ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 125.0509ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.2267ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 11.2267ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/info?t=1565896770030
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/info?t=1565896770030
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.2626ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 5.2626ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/398/cxvyv4dz/websocket
+      Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/398/cxvyv4dz/websocket
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/favicon.ico
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/favicon.ico
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\wwwroot\favicon.ico'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware:Information: Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\wwwroot\favicon.ico'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 67.4405ms 200 image/x-icon
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 67.4405ms 200 image/x-icon
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 642.5499ms 0
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 642.5499ms 0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:6001/sockjs-node/398/h4mnen5r/xhr_streaming?t=1565896770696  0
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 POST https://localhost:6001/sockjs-node/398/h4mnen5r/xhr_streaming?t=1565896770696  0
+The thread 14164 has exited with code 0 (0x0).
+The thread 1276 has exited with code 0 (0x0).
+The thread 2660 has exited with code 0 (0x0).
+The thread 13508 has exited with code 0 (0x0).
+The thread 11432 has exited with code 0 (0x0).
+The thread 13016 has exited with code 0 (0x0).
+The thread 5820 has exited with code 0 (0x0).
+The thread 10336 has exited with code 0 (0x0).
+The thread 11728 has exited with code 0 (0x0).
+The thread 12404 has exited with code 0 (0x0).
+The thread 13716 has exited with code 0 (0x0).
+The thread 12992 has exited with code 0 (0x0).
+The thread 13436 has exited with code 0 (0x0).
+The thread 2372 has exited with code 0 (0x0).
+The thread 10964 has exited with code 0 (0x0).
+The thread 9008 has exited with code 0 (0x0).
+The thread 2360 has exited with code 0 (0x0).
+The thread 9588 has exited with code 0 (0x0).
