@@ -398,3 +398,153 @@ The thread 1812 has exited with code 0 (0x0).
 The thread 13948 has exited with code 0 (0x0).
 The thread 12632 has exited with code 0 (0x0).
 The thread 15108 has exited with code 0 (0x0).
+The thread 15020 has exited with code 0 (0x0).
+The thread 13652 has exited with code 0 (0x0).
+The thread 14356 has exited with code 0 (0x0).
+The thread 11416 has exited with code 0 (0x0).
+info: Microsoft.AspNetCore.SpaServices[0]
+      i ｢wdm｣: Compiling...
+
+Microsoft.AspNetCore.SpaServices:Information: i ｢wdm｣: Compiling...
+  0% compiling 10% building 0/0 modules 0 active 10% building 0/1 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@ngtools\webpack\src\index.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\main.ts 10% building 0/2 modules 2 active css C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@angular-devkit\build-angular\src\angular-cli-files\plugins\raw-css-loader.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\postcss-loader\src\index.js??extracted!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\bootstrap\dist\css\bootstrap.min.css 0                                                                                                                                                                                                                               10% building 1/2 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@ngtools\webpack\src\index.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\main.ts 10% building 1/3 modules 2 active css C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@angular-devkit\build-angular\src\angular-cli-files\plugins\raw-css-loader.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\postcss-loader\src\index.js??extracted!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\sass-loader\lib\loader.js??ref--15-3!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\styles.sass 0                                                                                                                                                                                                                                                                                                                             10% building 2/3 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@ngtools\webpack\src\index.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\main.ts 30% building 2/3 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@ngtools\webpack\src\index.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\main.ts 50% building 2/3 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\node_modules\@ngtools\webpack\src\index.js!C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\main.ts                                                                                                                                                                                                                    50% building 3/3 modules 0 active 50% building 3/4 modules 1 active C:\Users\u1291341\Documents\src\personal\corporatewoods\dotnet\api\Clientelle\src\$$_lazy_route_resource lazy groupOptions: {} namespace object                                                                                                                                                 50% building 4/4 modules 0 active 70% building 4/4 modules 0 active           70% finish module graph 70% finish module graph angular-compiler 70% finish module graph FlagDependencyExportsPlugin                                         70% sealing 70% sealing WarnCaseSensitiveModulesPlugin        71% basic dependencies optimization       72% dependencies optimization 72% advanced dependencies optimization    73% after dependencies optimization                     70% chunk graph 71% after chunk graph 71% after chunk graph WebAssemblyModulesPlugin                                 73% optimizing 74% basic module optimization       74% module optimization 74% module optimization CircularDependencyPlugin                 75% advanced module optimization    75% after module optimization  76% basic chunk optimization 76% basic chunk optimization EnsureChunkConditionsPlugin   76% basic chunk optimization RemoveParentModulesPlugin   76% basic chunk optimization RemoveEmptyChunksPlugin 76% basic chunk optimization MergeDuplicateChunksPlugin                                  76% chunk optimization 77% advanced chunk optimization 77% advanced chunk optimization SplitChunksPlugin 77% advanced chunk optimization RuntimeChunkPlugin 77% advanced chunk optimization RemoveEmptyChunksPlugin                            77% after chunk optimization 78% module and chunk tree optimization 78% after module and chunk tree optimization         79% basic chunk modules optimization       79% chunk modules optimization 80% advanced chunk modules optimization    80% after chunk modules optimization                  81% module reviving 81% module reviving RecordIdsPlugin       81% module order optimization 82% advanced module order optimization                  82% before module ids 82% before module ids NamedModulesPlugin                           83% module ids 83% module id optimization 84% module id optimization         84% chunk reviving 84% chunk reviving RecordIdsPlugin       85% chunk order optimization 85% chunk order optimization OccurrenceOrderChunkIdsPlugin                                       85% before chunk ids 85% before chunk ids NamedChunksPlugin              86% chunk id optimization 86% after chunk id optimization              87% record modules 87% record modules RecordIdsPlugin                  87% record chunks 87% record chunks RecordIdsPlugin                       88% hashing 88% content hashing 88% content hashing mini-css-extract-plugin 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing mini-css-extract-plugin 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing mini-css-extract-plugin 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing mini-css-extract-plugin 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing mini-css-extract-plugin 88% content hashing JavascriptModulesPlugin                           89% after hashing   89% record hash 90% module assets processing  90% chunk assets processing 91% additional chunk assets processing                          91% recording 92% additional asset processing    92% chunk asset optimization 93% after chunk asset optimization 93% after chunk asset optimization SourceMapDevToolPlugin 93% after chunk asset optimization SourceMapDevToolPlugin main.js generate SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin polyfills.js generate SourceMap   93% after chunk asset optimization SourceMapDevToolPlugin runtime.js generate SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin styles.css generate SourceMap  93% after chunk asset optimization SourceMapDevToolPlugin styles.js generate SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin vendor.js generate SourceMap              93% after chunk asset optimization SourceMapDevToolPlugin resolve sources 93% after chunk asset optimization SourceMapDevToolPlugin main.js attach SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin styles.css attach SourceMap  93% after chunk asset optimization SourceMapDevToolPlugin styles.js attach SourceMap                            93% after chunk asset optimization SourceMapDevToolPlugin                                    93% asset optimization 94% after asset optimization               94% after seal 94% after seal SuppressExtractedTextChunks                               95% emitting 95% emitting CopyPlugin 95% emitting index-html-webpack-plugin                     98% after emitting 98% after emitting CopyPlugin 98% after emitting angular-compiler 98% after emitting SizeLimitsPlugin                                    info: Microsoft.AspNetCore.SpaServices[0]
+      Date: 2019-08-15T19:51:06.032Z - Hash: a5479215fd6e5d48f46d
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 139 kB [initial] [rendered]
+Time: 299ms
+
+Microsoft.AspNetCore.SpaServices:Information: Date: 2019-08-15T19:51:06.032Z - Hash: a5479215fd6e5d48f46d
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 139 kB [initial] [rendered]
+Time: 299ms
+info: Microsoft.AspNetCore.SpaServices[0]
+      i ｢wdm｣: Compiled successfully.
+
+Microsoft.AspNetCore.SpaServices:Information: i ｢wdm｣: Compiled successfully.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1010.6417ms 200 text/html; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1010.6417ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 182887.3305ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 182887.3305ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/runtime.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/vendor.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/runtime.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/vendor.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js
+      Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/main.js
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 35.3224ms 200 text/css; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/main.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 35.3224ms 200 text/css; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.4948ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 9.4948ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/styles.css.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/main.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.191ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 22.191ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1018.9347ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1018.9347ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/runtime.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 206.3704ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 206.3704ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1242.3335ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1242.3335ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/polyfills.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.8162ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 11.8162ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1587.9042ms 200 application/javascript; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1587.9042ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1020.002ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1020.002ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/vendor.js.map
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/info?t=1565898669894
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/info?t=1565898669894
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 9.0709ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.0709ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/619/s0j54nak/websocket
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/sockjs-node/619/s0j54nak/websocket
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 972.1759ms 200 application/json; charset=UTF-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 972.1759ms 200 application/json; charset=UTF-8
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.2.6\System.Net.WebSockets.WebSocketProtocol.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 8500 has exited with code 0 (0x0).
+The thread 14504 has exited with code 0 (0x0).
+The thread 12960 has exited with code 0 (0x0).
+The thread 3240 has exited with code 0 (0x0).
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:6001/api/SampleData/WeatherForecasts
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request starting HTTP/1.1 GET https://localhost:6001/api/SampleData/WeatherForecasts
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'api.Controllers.SampleDataController.WeatherForecasts (api)'
+Microsoft.AspNetCore.Routing.EndpointMiddleware:Information: Executing endpoint 'api.Controllers.SampleDataController.WeatherForecasts (api)'
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.6\System.Threading.Tasks.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "WeatherForecasts", controller = "SampleData", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[api.Controllers.SampleDataController+WeatherForecast] WeatherForecasts() on controller api.Controllers.SampleDataController (api).
+Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Route matched with {action = "WeatherForecasts", controller = "SampleData", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[api.Controllers.SampleDataController+WeatherForecast] WeatherForecasts() on controller api.Controllers.SampleDataController (api).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method api.Controllers.SampleDataController.WeatherForecasts (api) - Validation state: Valid
+Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executing action method api.Controllers.SampleDataController.WeatherForecasts (api) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method api.Controllers.SampleDataController.WeatherForecasts (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 42.1791ms.
+Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executed action method api.Controllers.SampleDataController.WeatherForecasts (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 42.1791ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[api.Controllers.SampleDataController+WeatherForecast, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor:Information: Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[api.Controllers.SampleDataController+WeatherForecast, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.6\System.Runtime.Serialization.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.6\System.Diagnostics.TraceSource.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.6\System.Data.Common.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.6\System.Xml.ReaderWriter.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action api.Controllers.SampleDataController.WeatherForecasts (api) in 857.2372ms
+Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executed action api.Controllers.SampleDataController.WeatherForecasts (api) in 857.2372ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'api.Controllers.SampleDataController.WeatherForecasts (api)'
+Microsoft.AspNetCore.Routing.EndpointMiddleware:Information: Executed endpoint 'api.Controllers.SampleDataController.WeatherForecasts (api)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1019.7286ms 200 application/json; charset=utf-8
+Microsoft.AspNetCore.Hosting.Internal.WebHost:Information: Request finished in 1019.7286ms 200 application/json; charset=utf-8
+The thread 7568 has exited with code 0 (0x0).
+The thread 8720 has exited with code 0 (0x0).
+The thread 8076 has exited with code 0 (0x0).
+The thread 128 has exited with code 0 (0x0).
+The thread 3508 has exited with code 0 (0x0).
+The thread 5264 has exited with code 0 (0x0).
+The thread 2924 has exited with code 0 (0x0).
+The thread 13556 has exited with code 0 (0x0).
+The thread 14944 has exited with code 0 (0x0).
+The thread 10540 has exited with code 0 (0x0).
+The thread 11296 has exited with code 0 (0x0).
