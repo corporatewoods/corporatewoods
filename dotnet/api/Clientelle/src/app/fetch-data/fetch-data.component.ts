@@ -26,17 +26,17 @@ export class FetchDataComponent implements AfterContentChecked {
     console.log(this.filterByVendorType);
     if (this.filterBySummary && this.filterBySummary !== '') {
       this.filterBySummaryFunction();
-    } else {
-      this.resetFilters();
-    }
+    } 
     if (this.filterByVendor && this.filterByVendor !== '') {
       this.filterByVendorFunction();
-    } else {
-      this.resetFilters();
-    }
+    } 
     if (this.filterByVendorType && this.filterByVendorType !== '') {
       this.filterByVendorTypeFunction();
-    } else {
+    } 
+    if (!this.filterBySummary && !this.filterByVendor && !this.filterByVendorType) {
+      this.resetFilters();
+    }
+    if (this.filterBySummary === '' && this.filterByVendor === '' && this.filterByVendorType === '') {
       this.resetFilters();
     }
   }
@@ -60,6 +60,7 @@ export class FetchDataComponent implements AfterContentChecked {
 
   resetFilters() {
     this.forecastsView = this.forecasts;
+    console.log("resetting filters...");
     console.log(this.forecastsView.length);
   }
 }
