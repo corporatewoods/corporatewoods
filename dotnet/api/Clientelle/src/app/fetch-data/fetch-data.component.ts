@@ -7,16 +7,28 @@ import { HttpClient } from '@angular/common/http';
 })
 export class FetchDataComponent implements AfterContentChecked {
   public forecasts: WeatherForecast[];
-
+  public forecastsView: WeatherForecast[];
+  public filterBySummary: string;
+  public filterByVendor: string;
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
     http.get<WeatherForecast[]>(baseUrl + 'api/SampleData/WeatherForecasts').subscribe(result => {
       this.forecasts = result;
+      this.forecastsView = result;
     }, error => console.error(error));
   }
 
   ngAfterContentChecked() {
     console.log("we are in fetch data after content checked");
     console.log(this.forecasts);
+    if (!this.filterBySummary && !this.filterByVendor) {
+      this.forecastsView = this.forecasts;
+    }
+    if (this.filterBySummary) {
+      this.forecastsView = this.forecastsView.filter(x => x.summary == this.filterBySummary);
+    }
+    if (this.filterByVendor) {
+      this.forecastsView = this.forecastsView.filter(x => x.vendor == this.filterByVendor);
+    }
   }
 }
 
@@ -25,4 +37,5 @@ interface WeatherForecast {
   temperatureC: number;
   temperatureF: number;
   summary: string;
+  vendor: string;
 }

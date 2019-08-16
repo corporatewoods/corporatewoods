@@ -11,14 +11,35 @@
       <th>Temp. (C)</th>
       <th>Temp. (F)</th>
       <th>Summary</th>
+      <th>Vendor</th>
+    </tr>
+    <tr>
+      <th>Not implemented</th>
+      <th>Not implemented</th>
+      <th>Not implemented</th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterBySummary">
+          <option value="">Filter</option>
+          <option *ngFor="let forecast of forecasts | filterUnique:'summary'" [ngValue]="forecast.summary">
+            {{ forecast.summary }}</option>
+        </select>
+      </th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterByVendor">
+            <option value="">Filter</option>
+          <option *ngFor="let forecast of forecasts | filterUnique:'vendor'" [ngValue]="forecast.vendor">
+            {{ forecast.vendor }}</option>
+        </select>
+      </th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let forecast of forecasts">
+    <tr *ngFor="let forecast of forecastsView">
       <td>{{ forecast.dateFormatted }}</td>
       <td>{{ forecast.temperatureC }}</td>
       <td>{{ forecast.temperatureF }}</td>
       <td>{{ forecast.summary }}</td>
+      <td>{{ forecast.vendor }}</td>
     </tr>
   </tbody>
 </table>
