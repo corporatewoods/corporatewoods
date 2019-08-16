@@ -24,18 +24,43 @@ export class FetchDataComponent implements AfterContentChecked {
     console.log(this.filterBySummary);
     console.log(this.filterByVendor);
     console.log(this.filterByVendorType);
+    if (this.filterBySummary && this.filterBySummary !== '') {
+      this.filterBySummaryFunction();
+    } else {
+      this.resetFilters();
+    }
+    if (this.filterByVendor && this.filterByVendor !== '') {
+      this.filterByVendorFunction();
+    } else {
+      this.resetFilters();
+    }
+    if (this.filterByVendorType && this.filterByVendorType !== '') {
+      this.filterByVendorTypeFunction();
+    } else {
+      this.resetFilters();
+    }
+  }
+  filterByVendorTypeFunction() {
+    this.forecastsView = this.forecastsView.filter(x => x.vendorType == this.filterByVendor);
+    console.log(this.filterByVendor);
+    console.log(this.forecastsView.length);
   }
 
   filterBySummaryFunction() {
     this.forecastsView = this.forecastsView.filter(x => x.summary == this.filterBySummary);
+    console.log(this.filterBySummary);
+    console.log(this.forecastsView.length);
   }
 
   filterByVendorFunction() {
     this.forecastsView = this.forecastsView.filter(x => x.vendor == this.filterByVendor);
+    console.log(this.filterByVendorType);
+    console.log(this.forecastsView.length);
   }
 
   resetFilters() {
     this.forecastsView = this.forecasts;
+    console.log(this.forecastsView.length);
   }
 }
 
