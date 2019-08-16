@@ -21,14 +21,30 @@ export class FetchDataComponent implements AfterContentChecked {
     console.log("we are in fetch data after content checked");
     console.log(this.forecasts);
     if (!this.filterBySummary && !this.filterByVendor) {
-      this.forecastsView = this.forecasts;
+      this.resetFilters();
     }
-    if (this.filterBySummary) {
-      this.forecastsView = this.forecastsView.filter(x => x.summary == this.filterBySummary);
+    if (!this.filterBySummary && this.filterByVendor) {
+      this.filterBySummaryFunction();
+      this.filterByVendorFunction();
     }
     if (this.filterByVendor) {
-      this.forecastsView = this.forecastsView.filter(x => x.vendor == this.filterByVendor);
+      this.filterByVendorFunction();
     }
+    if (this.filterBySummary) {
+      this.filterBySummaryFunction();
+    }
+  }
+
+  filterBySummaryFunction() {
+    this.forecastsView = this.forecastsView.filter(x => x.summary == this.filterBySummary);
+  }
+
+  filterByVendorFunction() {
+    this.forecastsView = this.forecastsView.filter(x => x.vendor == this.filterByVendor);
+  }
+
+  resetFilters() {
+    this.forecastsView = this.forecasts;
   }
 }
 
