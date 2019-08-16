@@ -12,6 +12,7 @@
       <th>Temp. (F)</th>
       <th>Summary</th>
       <th>Vendor</th>
+      <th>Vendor Type</th>
     </tr>
     <tr>
       <th>Not implemented</th>
@@ -31,6 +32,13 @@
             {{ forecast.vendor }}</option>
         </select>
       </th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterByVendorType">
+            <option value="">Filter</option>
+          <option *ngFor="let forecast of forecasts | filterUnique:'vendorType'" [ngValue]="forecast.vendorType">
+            {{ forecast.vendorType }}</option>
+        </select>
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -40,6 +48,7 @@
       <td>{{ forecast.temperatureF }}</td>
       <td>{{ forecast.summary }}</td>
       <td>{{ forecast.vendor }}</td>
+      <td>{{ forecast.vendorType }}</td>
     </tr>
   </tbody>
 </table>

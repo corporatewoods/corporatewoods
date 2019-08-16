@@ -19,6 +19,11 @@ namespace api.Controllers
             "Verizon", "Comcast", "Level 3", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+        private static string[] VendorTypes = new[]
+        {
+            "LEC", "CLEC", "ILEC", "IBCLC", "CLC", "IXC"
+        };
+
         [HttpGet("[action]")]
         public IEnumerable<WeatherForecast> WeatherForecasts()
         {
@@ -28,7 +33,8 @@ namespace api.Controllers
                 DateFormatted = DateTime.Now.AddDays(index).ToString("d"),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)],
-                Vendor = Vendors[rng.Next(Vendors.Length)]
+                Vendor = Vendors[rng.Next(Vendors.Length)],
+                VendorType = VendorTypes[rng.Next(VendorTypes.Length)]
             });
         }
 
@@ -38,6 +44,8 @@ namespace api.Controllers
             public int TemperatureC { get; set; }
             public string Summary { get; set; }
             public string Vendor {get; set;}
+            public string VendorType {get; set;}
+
 
             public int TemperatureF
             {

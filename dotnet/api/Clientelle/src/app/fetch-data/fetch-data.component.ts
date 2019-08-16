@@ -10,6 +10,7 @@ export class FetchDataComponent implements AfterContentChecked {
   public forecastsView: WeatherForecast[];
   public filterBySummary: string;
   public filterByVendor: string;
+  public filterByVendorType: string;
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
     http.get<WeatherForecast[]>(baseUrl + 'api/SampleData/WeatherForecasts').subscribe(result => {
       this.forecasts = result;
@@ -20,19 +21,9 @@ export class FetchDataComponent implements AfterContentChecked {
   ngAfterContentChecked() {
     console.log("we are in fetch data after content checked");
     console.log(this.forecasts);
-    if (!this.filterBySummary && !this.filterByVendor) {
-      this.resetFilters();
-    }
-    if (!this.filterBySummary && this.filterByVendor) {
-      this.filterBySummaryFunction();
-      this.filterByVendorFunction();
-    }
-    if (this.filterByVendor) {
-      this.filterByVendorFunction();
-    }
-    if (this.filterBySummary) {
-      this.filterBySummaryFunction();
-    }
+    console.log(this.filterBySummary);
+    console.log(this.filterByVendor);
+    console.log(this.filterByVendorType);
   }
 
   filterBySummaryFunction() {
@@ -54,4 +45,5 @@ interface WeatherForecast {
   temperatureF: number;
   summary: string;
   vendor: string;
+  vendorType: string;
 }
