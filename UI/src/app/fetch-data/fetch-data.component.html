@@ -1,1 +1,51 @@
-<p>fetch-data works!</p>
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Temp. (F)</th>
+      <th>Summary</th>
+      <th>Vendor</th>
+      <th>Vendor Type</th>
+    </tr>
+    <tr>
+      <th>Not implemented</th>
+      <th>Not implemented</th>
+      <th>Not implemented</th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterBySummary">
+          <option *ngFor="let forecast of forecastsView" [ngValue]="forecast.summary">
+            {{ forecast.summary }}</option>
+        </select>
+      </th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterByVendor">
+          <option *ngFor="let forecast of forecastsView" [ngValue]="forecast.vendor">
+            {{ forecast.vendor }}</option>
+        </select>
+      </th>
+      <th>
+        <select id="selectSummary" [(ngModel)]="filterByVendorType">
+          <option *ngFor="let forecast of forecastsView" [ngValue]="forecast.vendorType">
+            {{ forecast.vendorType }}</option>
+        </select>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecastsView">
+      <td>{{ forecast.dateFormatted }}</td>
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.temperatureF }}</td>
+      <td>{{ forecast.summary }}</td>
+      <td>{{ forecast.vendor }}</td>
+      <td>{{ forecast.vendorType }}</td>
+    </tr>
+  </tbody>
+</table>
