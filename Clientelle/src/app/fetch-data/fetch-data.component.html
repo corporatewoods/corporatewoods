@@ -20,19 +20,19 @@
       <th>Not implemented</th>
       <th>
         <select id="selectSummary" [(ngModel)]="filterBySummary">
-          <option *ngFor="let forecast of forecastsView | filterUnique:'summary'" [ngValue]="forecast.summary">
+          <option *ngFor="let forecast of forecasts | filterUnique:'summary'" [ngValue]="forecast.summary">
             {{ forecast.summary }}</option>
         </select>
       </th>
       <th>
         <select id="selectSummary" [(ngModel)]="filterByVendor">
-          <option *ngFor="let forecast of forecastsView | filterUnique:'vendor'" [ngValue]="forecast.vendor">
+          <option *ngFor="let forecast of forecasts | filterUnique:'vendor'" [ngValue]="forecast.vendor">
             {{ forecast.vendor }}</option>
         </select>
       </th>
       <th>
         <select id="selectSummary" [(ngModel)]="filterByVendorType">
-          <option *ngFor="let forecast of forecastsView | filterUnique:'vendorType'" [ngValue]="forecast.vendorType">
+          <option *ngFor="let forecast of forecasts | filterUnique:'vendorType'" [ngValue]="forecast.vendorType">
             {{ forecast.vendorType }}</option>
         </select>
       </th>
