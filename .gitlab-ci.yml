@@ -3,7 +3,7 @@ pages:
   before_script:
     - pwd
   script:
-    - cd UI
+    - cd Clientelle
     - npm --version
     - date
     - yarn install
@@ -24,7 +24,7 @@ pages:
 test:mypages:
   image: trion/ng-cli-karma
   script:
-    - cd UI
+    - cd Clientelle
     - pwd 
     - ls -a
     - yarn install
