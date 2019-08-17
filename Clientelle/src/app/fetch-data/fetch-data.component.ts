@@ -12,7 +12,7 @@ export class FetchDataComponent implements AfterContentChecked {
   public filterByVendor: string;
   public filterByVendorType: string;
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>('https://corporatewoods.gitlab.io/assets/json/weather.json').subscribe(result => {
+    http.get<WeatherForecast[]>('https://corporatewoods.gitlab.io/assets/weather.json').subscribe(result => {
       this.forecasts = result;
       this.forecastsView = result;
     }, error => console.error(error));
