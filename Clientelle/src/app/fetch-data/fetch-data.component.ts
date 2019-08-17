@@ -41,8 +41,8 @@ export class FetchDataComponent implements AfterContentChecked {
     }
   }
   filterByVendorTypeFunction() {
-    this.forecastsView = this.forecastsView.filter(x => x.vendorType == this.filterByVendor);
-    console.log(this.filterByVendor);
+    this.forecastsView = this.forecastsView.filter(x => x.vendorType == this.filterByVendorType);
+    console.log(this.filterByVendorType);
     console.log(this.forecastsView.length);
   }
 
