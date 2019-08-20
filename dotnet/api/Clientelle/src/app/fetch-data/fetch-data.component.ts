@@ -19,20 +19,20 @@ export class FetchDataComponent implements AfterContentChecked {
   }
 
   ngAfterContentChecked() {
-    console.log("we are in fetch data after content checked");
+    console.log('we are in fetch data after content checked');
     console.log(this.forecasts);
     console.log(this.filterBySummary);
     console.log(this.filterByVendor);
     console.log(this.filterByVendorType);
     if (this.filterBySummary && this.filterBySummary !== '') {
       this.filterBySummaryFunction();
-    } 
+    }
     if (this.filterByVendor && this.filterByVendor !== '') {
       this.filterByVendorFunction();
-    } 
+    }
     if (this.filterByVendorType && this.filterByVendorType !== '') {
       this.filterByVendorTypeFunction();
-    } 
+    }
     if (!this.filterBySummary && !this.filterByVendor && !this.filterByVendorType) {
       this.resetFilters();
     }
@@ -41,26 +41,26 @@ export class FetchDataComponent implements AfterContentChecked {
     }
   }
   filterByVendorTypeFunction() {
-    this.forecastsView = this.forecastsView.filter(x => x.vendorType == this.filterByVendor);
+    this.forecastsView = this.forecastsView.filter(x => x.vendorType === this.filterByVendor);
     console.log(this.filterByVendor);
     console.log(this.forecastsView.length);
   }
 
   filterBySummaryFunction() {
-    this.forecastsView = this.forecastsView.filter(x => x.summary == this.filterBySummary);
+    this.forecastsView = this.forecastsView.filter(x => x.summary === this.filterBySummary);
     console.log(this.filterBySummary);
     console.log(this.forecastsView.length);
   }
 
   filterByVendorFunction() {
-    this.forecastsView = this.forecastsView.filter(x => x.vendor == this.filterByVendor);
+    this.forecastsView = this.forecastsView.filter(x => x.vendor === this.filterByVendor);
     console.log(this.filterByVendorType);
     console.log(this.forecastsView.length);
   }
 
   resetFilters() {
     this.forecastsView = this.forecasts;
-    console.log("resetting filters...");
+    console.log('resetting filters...');
     console.log(this.forecastsView.length);
   }
 }
