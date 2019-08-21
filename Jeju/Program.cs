@@ -33,6 +33,7 @@ namespace Jeju
             {
                 Console.Write(i + " ");
             }
+            Console.Write("{0} scores are greater than 80", itemQuery.Count());
             return 0;
         }
 
