@@ -27,10 +27,7 @@ namespace Jeju
         }
         private static int studyLinq(int[] items)
         {
-            IEnumerable<int> itemQuery =
-            from item in items
-            where item > 80
-            select item;
+            IEnumerable<int> itemQuery = items.Where(x => x > 80).Select(y => y);
 
             foreach (int i in itemQuery)
             {
@@ -41,9 +38,7 @@ namespace Jeju
 
         private static int practiceLinq(DbSet<Blog> blogs)
         {
-            var blogQuery = 
-            from blog in blogs 
-            select blog;
+            var blogQuery = blogs.Select(x => x);
             Console.WriteLine();
             Console.WriteLine(blogQuery.Count());
             return 0;
