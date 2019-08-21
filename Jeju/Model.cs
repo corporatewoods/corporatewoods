@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace ConsoleApp.SQLite
+namespace Jeju
 {
     public class BloggingContext : DbContext
     {
