@@ -41,7 +41,7 @@ namespace Jeju
 
         private static int practiceLinq(DbSet<Blog> blogs)
         {
-            IEnumerable<Blog> blogQuery = 
+            var blogQuery = 
             from blog in blogs 
             select blog;
             Console.WriteLine();
