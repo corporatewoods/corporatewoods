@@ -18,6 +18,20 @@ namespace Jeju
                 {
                     Console.WriteLine(" - {0}", blog.Url);
                 }
+                var items = new int[] { 97, 92, 81, 60 };
+                studyLinq();
+            }
+        }
+        private int studyLinq(int[] items)
+        {
+            IEnumerable<int> itemQuery =
+            from item in items
+            where item > 200
+            select item;
+
+            foreach (int i in itemQuery)
+            {
+                Console.Write(i + " ");
             }
         }
     }
