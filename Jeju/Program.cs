@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-
+using Microsoft.EntityFrameworkCore;
 namespace Jeju
 {
     public class Program
@@ -22,6 +22,7 @@ namespace Jeju
                 }
                 var items = new int[] { 97, 92, 81, 60 };
                 studyLinq(items);
+                practiceLinq(db.Blogs);
             }
         }
         private static int studyLinq(int[] items)
@@ -34,6 +35,19 @@ namespace Jeju
             foreach (int i in itemQuery)
             {
                 Console.Write(i + " ");
+            }
+            return 0;
+        }
+
+        private static int practiceLinq(DbSet<Blog> blogs)
+        {
+            IEnumerable<Blog> blogQuery = 
+            from blog in blogs 
+            select blog;
+            Console.WriteLine();
+            foreach(var blog in blogQuery)
+            {
+                Console.Write(blog.BlogId);
             }
             return 0;
         }
