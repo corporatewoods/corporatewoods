@@ -43,13 +43,9 @@ namespace Jeju
         {
             IEnumerable<Blog> blogQuery = 
             from blog in blogs 
-            where blog.BlogId < 12
             select blog;
             Console.WriteLine();
-            foreach(var blog in blogQuery)
-            {
-                Console.Write(blog.BlogId);
-            }
+            Console.WriteLine(blogQuery.Count());
             return 0;
         }
     }
