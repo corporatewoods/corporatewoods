@@ -30,3 +30,12 @@ test:mypages:
     - yarn install
     - ./node_modules/@angular/cli/bin/ng test --progress false --watch=false
     - ./node_modules/@angular/cli/bin/ng e2e
+
+build:dotnetcore:
+  image: microsoft/dotnet:latest
+  script:
+    - pwd
+    - cd Jeju
+    - pwd
+    - dotnet --version
+    - dotnet publish --self-contained --configuration Release --runtime win10-x64 --verbosity diagnostic
