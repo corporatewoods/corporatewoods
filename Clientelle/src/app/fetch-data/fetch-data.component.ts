@@ -19,7 +19,7 @@ export class FetchDataComponent implements AfterContentChecked {
   }
 
   ngAfterContentChecked() {
-    console.log("we are in fetch data after content checked");
+    console.log('we are in fetch data after content checked');
     console.log(this.forecasts);
     console.log(this.filterBySummary);
     console.log(this.filterByVendor);
