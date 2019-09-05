@@ -39,5 +39,14 @@ namespace taxpolicytest
             decimal calculated = TaxUtility.CalculateTaxPayable(taxableIncome, brackets);
             Assert.Equal(5m, calculated);
         }
+
+        [Fact]
+        public void TestFirstBracketLimitIncome()
+        {
+            decimal totalIncome = 19400m + standardDeductionMarried2019;
+            decimal taxableIncome = Math.Max(0, totalIncome - standardDeductionMarried2019);
+            decimal calculated = TaxUtility.CalculateTaxPayable(taxableIncome, brackets);
+            Assert.Equal(1940m, calculated);
+        }
     }
 }
