@@ -31,5 +31,13 @@ namespace taxpolicytest
             decimal calculated = TaxUtility.CalculateTaxPayable(taxableIncome, brackets);
             Assert.Equal(0m, calculated);
         }
+        [Fact]
+        public void TestFiftyDollars()
+        {
+            decimal totalIncome = 50m + standardDeductionMarried2019;
+            decimal taxableIncome = Math.Max(0, totalIncome - standardDeductionMarried2019);
+            decimal calculated = TaxUtility.CalculateTaxPayable(taxableIncome, brackets);
+            Assert.Equal(5m, calculated);
+        }
     }
 }
