@@ -1003,3 +1003,9 @@ Already up to date.
 
 Friday, September 6, 2019 8:36:56 AM
 
+[master 81ca92b] add powershell text file
+ 1 file changed, 6 insertions(+)
+Already up to date.
+
+Friday, September 6, 2019 8:42:05 AM
+
