@@ -727,3 +727,9 @@ Already up to date.
 
 Friday, September 6, 2019 4:39:54 AM
 
+[master 9cd4b8a] add powershell text file
+ 1 file changed, 6 insertions(+)
+Already up to date.
+
+Friday, September 6, 2019 4:45:02 AM
+
