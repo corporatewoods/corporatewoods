@@ -943,3 +943,9 @@ Already up to date.
 
 Friday, September 6, 2019 7:45:14 AM
 
+[master 0e77fda] add powershell text file
+ 1 file changed, 6 insertions(+)
+Already up to date.
+
+Friday, September 6, 2019 7:50:22 AM
+
