@@ -1417,3 +1417,9 @@ Already up to date.
 
 Friday, September 6, 2019 8:04:10 PM
 
+[master 1cb76c0] add powershell text file
+ 1 file changed, 6 insertions(+)
+Already up to date.
+
+Friday, September 6, 2019 8:09:18 PM
+
